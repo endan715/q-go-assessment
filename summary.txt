@@ -8,4 +8,4 @@
 
 In terms of potential improvements, I would like to move action creators into separate files. In a real world app, action creators could get large very quickly, especially if there are aync operations.
 
-There is also scope to split reduce action handlers (switch statement) into separate methods
+There is also scope to split reducer action handlers (switch statement) into separate methods
