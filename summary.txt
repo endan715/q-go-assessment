@@ -1,0 +1,11 @@
+1. Delete functionality is straightforward, the only thing I had to do is to remove item from state. Item template was moved to a separate slim presentation component.
+
+2. Toggling status is very similar to delete functionality. I introduced immuntable js to help me write reducer (it is a lot easier to return new state with immuntable js)
+
+3. derived data. Reselect package was used to return derived data for filtered todo list (and there is performance benefit by using reselect as well)
+
+4. Tests were written to cover all new features
+
+In terms of potential improvements, I would like to move action creators into separate files. In a real world app, action creators could get large very quickly, especially if there are aync operations.
+
+There is also scope to split reduce action handlers (switch statement) into separate methods
