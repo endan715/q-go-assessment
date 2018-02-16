@@ -2,7 +2,7 @@
 
 2. Toggling status is very similar to delete functionality. I introduced immuntable js to help me write reducer (it is a lot easier to return new state with immuntable js)
 
-3. derived data. Reselect package was used to return derived data for filtered todo list (and there is performance benefit by using reselect as well)
+3. Reselect package was used to return derived data for filtered todo list (and there is performance benefit by using reselect as well)
 
 4. Tests were written to cover all new features
 
